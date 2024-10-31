@@ -7,6 +7,47 @@
 */
 
 //reseni
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>
+
+$months = [
+"leden",
+"únor",
+"březen",
+"duben",
+"květen",
+"červen",
+"červenec",
+"srpen",
+"září",
+"říjen",
+"listopad",
+"prosinec",
+
+foreach ($months as $a)[
+
+    echo $a
+]
+];
+
+    
+
+
+
+
+
+
+
+
 
 ?>
 
