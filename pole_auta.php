@@ -17,6 +17,13 @@ $cars = array (
 	array("Land Rover",17,15)
 );
 
-//reseni
+    $prodej = 0;
+	$sklad = 0;
+foreach ($cars as $a){
+	$prodej = $a[1] + $prodej;
+	$sklad = $a[2] + $sklad;
+}
+echo "prodej ", $prodej;
+echo "sklad", $sklad;
 
 ?>
