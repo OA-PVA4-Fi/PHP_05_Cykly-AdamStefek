@@ -38,6 +38,7 @@ $city = array(
 	"Poland"=>"Warsaw"
 );
 
+foreach($city)
 //reseni
 
 ?>

@@ -7,6 +7,7 @@
 */
 
 //reseni
+echo'
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,33 +19,33 @@
 
 </body>
 </html>
-
+';
 $months = [
-"leden",
-"únor",
-"březen",
-"duben",
-"květen",
-"červen",
-"červenec",
-"srpen",
-"září",
-"říjen",
-"listopad",
-"prosinec",
-
-foreach ($months as $a)[
-
-    echo $a
-]
+"leden ",
+"únor ",
+"březen ",
+"duben ",
+"květen ",
+"červen ",
+"červenec ",
+"srpen ",
+"září ",
+"říjen ",
+"listopad ",
+"prosinec ",
 ];
 
+foreach ($months as $a){
     
+    echo $a .'<br/>';
+}
+
+for ($i = 5; $i <12; $i++) {
+    echo $months[$i];
+}
 
 
-
-
-
+    
 
 
 
